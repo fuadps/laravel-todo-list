@@ -1,13 +1,13 @@
 @extends('layouts.main')
 
-@section('title','Create Task')
+@section('title','Edit Task')
 
 @section('content')
     <div class="row">
         <div class="col-sm-12">
-            <h1>Create Task</h1>
+            <h1>Edit Task</h1>
 
-            {!! Form::open(['route' => 'task.store' , 'method' => 'POST']) !!}
+            {!! Form::model( $task,['route' => ['task.update',$task->id] , 'method' => 'PUT']) !!}
             @component('components.taskForm')          
             @endcomponent
             {!! Form::close() !!}
