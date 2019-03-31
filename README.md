@@ -2,16 +2,16 @@
 To-Do List is a simple web application that keep tracking user activity in future . <br>
 It helps user to list their activity and remind them by checking the due date that set up by themself. <br>
 
-# Framework
-Laravel 5.8
+## Framework
+PHP Laravel 5.8
 
-# Component
+## Component
 Laravel Collective
 
-# Functions
+## Functions
 Add ,Edit ,View and Delete Task (CRUD)
 
-# Screenshots
+## Screenshots
 
 ![image](https://i.imgur.com/R2cNGbG.png) <br>
 ![image](https://i.imgur.com/GBHa1tJ.png) <br>
