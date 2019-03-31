@@ -1,5 +1,15 @@
-# laravel-todo-list
-To Do List web application written using Laravel 5.8
+# To-Do List Web Application
+To-Do List is a simple web application that keep tracking user activity in future . <br>
+It helps user to list their activity and remind them by checking the due date that set up by themself. <br>
+
+# Framework
+Laravel 5.8
+
+# Component
+Laravel Collective
+
+# Functions
+Add ,Edit ,View and Delete Task (CRUD)
 
 # Screenshots
 
