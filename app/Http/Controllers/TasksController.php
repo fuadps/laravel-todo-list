@@ -71,7 +71,9 @@ class TasksController extends Controller
      */
     public function show($id)
     {
-        //
+        $task = Task::find($id);
+
+        return view('tasks.show')->withTask($task);
     }
 
     /**
@@ -130,6 +132,12 @@ class TasksController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $task = Task::find($id);
+
+        $task->delete();
+
+        Session::flash('success','Task deleted successfully!');
+
+        return redirect()->route('task.index');
     }
 }
